@@ -1,4 +1,4 @@
-package org.snack01.java;
+package org.snack.java;
 
 public class Studente {
 
@@ -12,8 +12,8 @@ public class Studente {
 		this.eta = eta;
 	}
 
-	public String infoStudente() {
-		String info = nome + " " + cognome + " " + eta + " " + "anni";
+	public String getInfoStudente() {
+		String info = this.nome + " " + this.cognome + " " + this.eta + " " + "anni";
 		return info;
 	}
 

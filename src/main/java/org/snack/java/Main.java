@@ -1,4 +1,4 @@
-package org.snack01.java;
+package org.snack.java;
 
 public class Main {
 
