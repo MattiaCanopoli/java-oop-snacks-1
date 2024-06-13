@@ -18,6 +18,9 @@ public class Main {
 
 		conto.subFromConto(3.0f);
 		System.out.println(conto.getSaldo());
+
+		conto.addToConto(5.0f);
+		System.out.println(conto.getSaldo());
 	}
 
 }

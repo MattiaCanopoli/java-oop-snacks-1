@@ -25,4 +25,16 @@ public class ContoBancario {
 		return this.saldo;
 	}
 
+	public int getNumeroConto() {
+		return numeroConto;
+	}
+
+	private void setNumeroConto(int numeroConto) {
+		this.numeroConto = numeroConto;
+	}
+
+	private void setSaldo(float saldo) {
+		this.saldo = saldo;
+	}
+
 }
